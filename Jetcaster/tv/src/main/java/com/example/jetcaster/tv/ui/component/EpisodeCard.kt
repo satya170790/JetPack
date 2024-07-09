@@ -31,7 +31,6 @@ import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Card
 import androidx.tv.material3.CardScale
-import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.Text
 import androidx.tv.material3.WideCardContainer
@@ -61,7 +60,6 @@ internal fun EpisodeCard(
     )
 }
 
-@OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
 private fun EpisodeThumbnail(
     playerEpisode: PlayerEpisode,
@@ -79,7 +77,6 @@ private fun EpisodeThumbnail(
     }
 }
 
-@OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
 private fun EpisodeMetaData(
     playerEpisode: PlayerEpisode,
